@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dwp17a5t65hsd"]
+
+[ext_resource type="Script" uid="uid://3mv3mfqm6cd" path="res://misc/rhytm.gd" id="1_klddc"]
+
+[node name="Main" type="Node2D" unique_id=1121270870]
+script = ExtResource("1_klddc")
+
+[node name="Music" type="AudioStreamPlayer" parent="." unique_id=2130574671]

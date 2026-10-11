@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://b5yvfrxf84igo"]
+
+[ext_resource type="Script" uid="uid://c4ye7bb6ou364" path="res://misc/calibration.gd" id="1_2kbmm"]
+
+[node name="Calibration" type="Node2D" unique_id=969916409]
+script = ExtResource("1_2kbmm")
+
+[node name="Music" type="AudioStreamPlayer" parent="." unique_id=1429690321]
+
+[node name="Info" type="Label" parent="." unique_id=1335879667]
+offset_right = 1.0
+offset_bottom = 23.0
